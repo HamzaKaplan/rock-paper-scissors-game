@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Orbitron&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+    outline: none;
+    user-select: none;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    border: thin solid black;
+    border-radius: 2rem 0  2rem 0;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.baslik {
+    color: gray;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+#container > img {
+    flex: 1 1 10rem;
+    max-width: 30%; /* RESPONSİVE TASARIM */
+}
+
+button {
+    margin: 1rem;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
